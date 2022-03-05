@@ -4,15 +4,16 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.liuke.kill</groupId>
-    <artifactId>LiuKe-Seckill</artifactId>
+    <groupId>com.debug.kill</groupId>
+    <artifactId>SpringBootSecondKill</artifactId>
     <packaging>pom</packaging>
     <version>1.0.1</version>
-    <name>基于SpringBoot+RocketMQ+Zookeeper的分佈式抢购系统</name>
+    <name>基于SpringBoot+Redis+Zookeeper的抢购系统</name>
+
     <modules>
         <module>api</module>
-        <module>server</module>
         <module>model</module>
+        <module>server</module>
     </modules>
 
     <properties>
