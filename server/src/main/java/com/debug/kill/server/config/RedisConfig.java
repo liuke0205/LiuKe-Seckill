@@ -1,5 +1,4 @@
-package com.debug.kill.server.config;
-/**
+package com.debug.kill.server.config;/**
  * Created by Administrator on 2019/7/2.
  */
 

@@ -14,9 +14,9 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="api" target="1.8" />
-      <module name="Liuke-Seckill" target="1.8" />
       <module name="model" target="1.8" />
       <module name="server" target="1.8" />
+      <module name="SpringBootSecondKill" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

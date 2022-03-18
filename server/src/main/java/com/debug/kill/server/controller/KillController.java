@@ -1,5 +1,4 @@
-package com.debug.kill.server.controller;
-/**
+package com.debug.kill.server.controller;/**
  * Created by Administrator on 2019/6/17.
  */
 
@@ -140,18 +139,18 @@ public class KillController {
      * 查看订单详情
      * @return
      */
-//    @RequestMapping(value = prefix+"/record/detail/{orderNo}",method = RequestMethod.GET)
-//    public String killRecordDetail(@PathVariable String orderNo, ModelMap modelMap){
-//        if (StringUtils.isBlank(orderNo)){
-//            return "error";
-//        }
-//        KillSuccessUserInfo info=itemKillSuccessMapper.selectByCode(orderNo);
-//        if (info==null){
-//            return "error";
-//        }
-//        modelMap.put("info",info);
-//        return "killRecord";
-//    }
+    @RequestMapping(value = prefix+"/record/detail/{orderNo}",method = RequestMethod.GET)
+    public String killRecordDetail(@PathVariable String orderNo, ModelMap modelMap){
+        if (StringUtils.isBlank(orderNo)){
+            return "error";
+        }
+        KillSuccessUserInfo info=itemKillSuccessMapper.selectByCode(orderNo);
+        if (info==null){
+            return "error";
+        }
+        modelMap.put("info",info);
+        return "killRecord";
+    }
 
 
     //抢购成功跳转页面

@@ -8,7 +8,8 @@
     <artifactId>SpringBootSecondKill</artifactId>
     <packaging>pom</packaging>
     <version>1.0.1</version>
-    <name>基于SpringBoot+Redis+Zookeeper的抢购系统</name>
+    <name>基于微服务SpringBoot的商城高并发抢单系统</name>
+    <description>商城高并发抢单系统-秒杀系统</description>
 
     <modules>
         <module>api</module>
